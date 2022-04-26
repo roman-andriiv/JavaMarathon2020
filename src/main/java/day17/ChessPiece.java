@@ -13,7 +13,10 @@ public enum ChessPiece {
     ROOK_BLACK("♜",5),
     BISHOP_BLACK("♝",3.5),
     KNIGHT_BLACK("♞",3),
-    PAWN_BLACK("♟",1);
+    PAWN_BLACK("♟",1),
+
+    EMPTY("_",-1);
+
 
     private String designation;
     private double value;
